@@ -36,7 +36,7 @@ public class MeetingController {
     public DatePicker endDate;
 
 
-    private final String mainPageFileName = "secondary";
+    private final String mainPageFileName = "main";
 
     @FXML
     private void back() throws IOException {
