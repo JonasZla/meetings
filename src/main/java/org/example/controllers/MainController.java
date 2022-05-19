@@ -4,10 +4,11 @@ import java.io.IOException;
 import javafx.fxml.FXML;
 import org.example.App;
 
-public class SecondaryController {
+public class MainController {
 
     @FXML
-    private void switchToPrimary() throws IOException {
+    private void newRec() throws IOException {
         App.setRoot("meeting");
     }
+
 }
